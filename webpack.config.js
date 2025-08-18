@@ -5,9 +5,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  entry: {
-    index: glob.sync("./src/**/*.ts")
-  },
+  entry: "./src/index.ts",
   target: "web",
   module: {
     rules: [

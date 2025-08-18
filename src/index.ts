@@ -6,6 +6,7 @@ import crossroads from 'crossroads';
 import { Ajax } from '@syncfusion/ej2-base';
 import '../styles/styles.scss';
 import '../styles/index.scss';
+import './home/homePage';
 let pages: Object[] = [
     { root: 'home', page: 'homePage' }
 ];
